@@ -1,7 +1,7 @@
 package main
 
 import (
-	"src/model/message/gfw_message"
+	"github.com/amazing-proxy/src/model/message"
 	log "github.com/sirupsen/logrus"
 )
 
