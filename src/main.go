@@ -6,7 +6,7 @@ import (
 )
 
 func main() {
-	a := new GfwMessage()
+	a := message.GfwMessage{"weimingliu"}
 	log.Info(a)
 	log.Info("hello world!")
 }

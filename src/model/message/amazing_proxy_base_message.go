@@ -6,5 +6,6 @@ const (
 )
 
 type AmazingProxyBaseMessage interface {
-	MessageType() int
+	GetMessageType() int
+	GetData() string
 }

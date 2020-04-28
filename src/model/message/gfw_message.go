@@ -1,9 +1,13 @@
 package message
 
-type GfwMessage {
-	data string
+type GfwMessage struct {
+	Data string
 }
 
-func (gfwMessage *GfwMessage) MessageType() string {
+func (m *GfwMessage) GetMessageType() int {
 	return GFW;
+}
+
+func (m *GfwMessage) GetData() string {
+	return m.Data;
 }
