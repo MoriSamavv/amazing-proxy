@@ -1,4 +1,4 @@
-module amazing-proxy
+module github.com/amazing-proxy
 
 go 1.13
 
